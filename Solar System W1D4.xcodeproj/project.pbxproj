@@ -13,6 +13,8 @@
 		24B2C3CB2835A6FC005FE856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B2C3C92835A6FC005FE856 /* Main.storyboard */; };
 		24B2C3CD2835A706005FE856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B2C3CC2835A706005FE856 /* Assets.xcassets */; };
 		24B2C3D02835A706005FE856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B2C3CE2835A706005FE856 /* LaunchScreen.storyboard */; };
+		24B2C3D82835A739005FE856 /* planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2C3D72835A739005FE856 /* planet.swift */; };
+		24B2C3DA2835A898005FE856 /* planetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2C3D92835A898005FE856 /* planetController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		24B2C3CC2835A706005FE856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B2C3CF2835A706005FE856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24B2C3D12835A706005FE856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B2C3D72835A739005FE856 /* planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planet.swift; sourceTree = "<group>"; };
+		24B2C3D92835A898005FE856 /* planetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planetController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		24B2C3C22835A6FC005FE856 /* Solar System W1D4 */ = {
 			isa = PBXGroup;
 			children = (
+				24B2C3D92835A898005FE856 /* planetController.swift */,
+				24B2C3D72835A739005FE856 /* planet.swift */,
 				24B2C3C32835A6FC005FE856 /* AppDelegate.swift */,
 				24B2C3C52835A6FC005FE856 /* SceneDelegate.swift */,
 				24B2C3C72835A6FC005FE856 /* ViewController.swift */,
@@ -141,6 +147,8 @@
 				24B2C3C82835A6FC005FE856 /* ViewController.swift in Sources */,
 				24B2C3C42835A6FC005FE856 /* AppDelegate.swift in Sources */,
 				24B2C3C62835A6FC005FE856 /* SceneDelegate.swift in Sources */,
+				24B2C3DA2835A898005FE856 /* planetController.swift in Sources */,
+				24B2C3D82835A739005FE856 /* planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
